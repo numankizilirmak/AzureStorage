@@ -1,0 +1,15 @@
+﻿@model AzureStorageLibrary.Models.Product
+
+<h1>Create</h1>
+
+<form class="accordion" asp-action="Create" method="post" enctype="application/x-www-form-urlencoded">
+
+    <input class="form-control mr-1" asp-for="@Model.Name" placeholder="Ürün Adı" />
+    <input class="form-control mr-1" asp-for="@Model.Price" placeholder="Ürün Fiyatı" />
+    <input class="form-control mr-1" asp-for="@Model.Category" placeholder="Ürün Kategori" />
+    
+    <input class="btn btn-primary" type="submit" value="Kaydet" />
+
+</form>
+
+
